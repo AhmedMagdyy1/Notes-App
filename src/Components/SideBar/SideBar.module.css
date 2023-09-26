@@ -1,0 +1,26 @@
+.sidebar {
+    width: 15%;
+    left: -110px;
+    background: rgb(225, 225, 120);
+    color: #fff;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    position: relative;
+}
+
+.customMenu{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-right: -20px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
